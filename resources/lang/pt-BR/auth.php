@@ -17,5 +17,7 @@ return [
     'throttle' => 'Você realizou muitas tentativas de login. Por favor, tente novamente em :seconds segundos.',
     'email' => 'E-mail',
     'password' => 'Senha',
-    'remember' => 'Lembrar-me'
+    'confirm.password' => 'confirmar senha',
+    'remember' => 'Lembrar-me',
+    'forgot' => 'Esqueceu a senha ?'
 ];
