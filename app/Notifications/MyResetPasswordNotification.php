@@ -17,7 +17,7 @@ class MyResetPasswordNotification extends ResetPassword
                     ->line('Você está recebendo essa mensagem porque uma requisição de redefinição foi enviada.')
                     ->action('Redefinir senha',  url(config('app.url').route('password.reset', $this->token, false)))
                     ->line('Obrigado por usar nossa aplicação!');
-                    
+
     }
 
 
