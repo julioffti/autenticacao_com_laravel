@@ -33,3 +33,9 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function(){
     Route::get('/login/callback', 'Auth\LoginController@loginCallback');
 });
 
+Route::group(['middleware' => 'guest'], function(){
+    Route::get('/test', function(){
+        echo "Olá Mundo!";
+    });
+});
+
